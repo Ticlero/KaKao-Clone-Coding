@@ -1,20 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="autor" content="SHJ Coder" />
+    <meta
+      name="description"
+      content="Welcome to my Kakao Clone (KaKao App Clone v2.0)"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats | Kakao Clone</title>
+    <link href="CSS/index.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="autor" content="SHJ Coder" />
-  <meta name="description" content="Welcome to my Kakao Clone (KaKao App Clone v2.0)" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chat | Kakao Clone</title>
-  <link href="CSS/index.css" rel="stylesheet">
-</head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:52</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chats">
+      <ul class="chats_list">
+        <li class="chat chats__chat">
+          <div class="chat__column">
+            <img
+              src="./image/yelyn.jpg"
+              alt="noting"
+              class="chat__avatar g-avatar"
+            />
+            <div class="chat__content">
+              <span class="chat__username">YeLyn</span>
+              <span class="chat__preview">집에 가고 있어~</span>
+            </div>
+          </div>
+          <div class="chat__column">
+            <span class="chat__timestamp">Yesterday</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="./friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="./index.html" class="nav__list-link">
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="./find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="./more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-<body>
-  <div class="status-bar">
-    <div class="status-bar__column"></div>
-    <div class="status-bar__column"></div>
-  </div>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/163874fe8d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
