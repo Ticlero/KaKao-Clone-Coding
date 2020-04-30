@@ -13,6 +13,7 @@
   </head>
 
   <body>
+    <!-- status-bar start -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:52</span>
@@ -25,6 +26,8 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
+    <!-- status-bar end -->
+    <!-- header start -->
     <header class="header">
       <div class="header__header-column">
         <h1 class="header__title">More</h1>
@@ -37,10 +40,80 @@
           <i class="fas fa-qrcode"></i>
         </span>
         <span class="header__icon">
-          <i class="fas fa-cog"></i>
+          <a href="./settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="more">
+      <header class="friends__header">
+        <div class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="./image/my_profile.JPG" class="g-avatar friend__avatar" />
+            <div class="friend__contents">
+              <span class="friend__name">
+                장성현
+              </span>
+              <span class="status-message">
+                사랑해여~1000up! 1000일 10000일 100000일~~~쭉우욱~
+              </span>
+            </div>
+            <div class="friend__column">
+              <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+          </div>
+        </div>
+        <ul class="more__btn-list">
+          <li class="more__btn">
+            <span class="more__btn-icon">
+              <i class="far fa-smile fa-2x"></i>
+            </span>
+            <span class="more_btn-title">Emoticons</span>
+          </li>
+          <li class="more__btn">
+            <span class="more__btn-icon">
+              <i class="fas fa-brush fa-2x"></i>
+            </span>
+            <span class="more_btn-title">Themes</span>
+          </li>
+          <li class="more__btn">
+            <span class="more__btn-icon">
+              <i class="fab fa-kickstarter-k fa-2x"></i>
+            </span>
+            <span class="more_btn-title">Account</span>
+          </li>
+        </ul>
+      </header>
+      <hr />
+      <section class="more__suggestions">
+        <h5 class="more__title">Suggestions</h5>
+        <ul class="more__suggestion-list">
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-quote-right fa-2x"></i>
+            </span>
+            <span class="suggestion__title">Kako Story</span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-beer fa-2x"></i>
+            </span>
+            <span class="suggestion__title">Kako friends</span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-gamepad fa-2x"></i>
+            </span>
+            <span class="suggestion__title">Friends Gem</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- main end -->
+    <!-- footer nav start -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
@@ -65,7 +138,7 @@
         </li>
       </ul>
     </nav>
-
+    <!-- footer nav end -->
     <script
       src="https://kit.fontawesome.com/163874fe8d.js"
       crossorigin="anonymous"

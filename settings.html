@@ -13,6 +13,7 @@
   </head>
 
   <body>
+    <!-- status-bar start -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:52</span>
@@ -25,50 +26,48 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
+    <!-- status-bar end -->
+    <!-- header start -->
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__title">Chat</h1>
+        <div class="header__back-btn">
+          <a href="./more.html"><i class="fas fa-arrow-left fa-2x"></i></a>
+        </div>
+        <h2 class="header__title">Settings</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="far fa-comment"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
+        </span>        
       </div>
     </header>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__list-item">
-          <a href="./friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="./index.html" class="nav__list-link">
-            <i class="far fa-comment"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="./find.html" class="nav__list-link">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="./more.html" class="nav__list-link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <script
-      src="https://kit.fontawesome.com/163874fe8d.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="settions">
+      <section class=settings__sections">
+        <ul class="settings__list">
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="fas fa-lock"></i>
+            </span>
+            <span class="settings_title">Privacy</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="far fa-bell"></i>
+            </span>
+            <span class="settings_title">Notifications</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="fas fa-user"></i>
+            </span>
+            <span class="settings_title">Friends</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- main end -->
+    <script src="https://kit.fontawesome.com/163874fe8d.js" crossorigin="anonymous"></script>
   </body>
 </html>

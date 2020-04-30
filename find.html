@@ -13,6 +13,7 @@
   </head>
 
   <body>
+    <!-- status-bar start -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:52</span>
@@ -25,6 +26,8 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
+    <!-- status-bar end -->
+    <!-- header start -->
     <header class="header">
       <div class="header__header-column">
         <h1 class="header__title">Find</h1>
@@ -38,6 +41,67 @@
         </span>
       </div>
     </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="find">
+      <header class="find__header">
+        <ul class="find__header-list">
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-qrcode fa-2x"></i>
+            </span>
+            <span class="header-btn__title">QR Code</span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="far fa-address-book fa-2x"></i>
+            </span>
+            <span class="header-btn__title">Add by Contacts</span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-passport fa-2x"></i>
+            </span>
+            <span class="header-btn__title">Add by ID</span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-envelope fa-2x"></i>
+            </span>
+            <span class="header-btn__title">Invite</span>
+          </li>
+        </ul>
+      </header>
+      <hr />
+      <div class="friends__find-friends">
+        <div class="friends__section-header section-header">
+          <h5 class="section-header__title">Recommended Friends</h5>
+          <span class="section-header__icon">
+            <i class="fas fa-chevron-up"></i>
+          </span>
+        </div>
+        <ul class="find-recommended">
+          <li class="find__friend friend">
+            <div class="friend__column">
+              <img
+                src="./image/birth_icon.JPG"
+                class="g-avatar friend__avatar"
+              />
+              <div class="friend__contents">
+                <span class="friend__name">채널</span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__add-btn">
+                <i class="fas fa-user-plus"></i>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <!-- main end -->
+    <!-- footer nav start -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
@@ -62,7 +126,7 @@
         </li>
       </ul>
     </nav>
-
+    <!-- footer nav end -->
     <script
       src="https://kit.fontawesome.com/163874fe8d.js"
       crossorigin="anonymous"
