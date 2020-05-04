@@ -1,8 +1,12 @@
 .friend {
   display: flex;
   justify-content: space-between;
+  padding: 5px 0px;
 }
-
+.friend .searched-list {
+  font-size: 12px;
+  opacity: 0.6;
+}
 .friend .friend__avatar {
   width: 50px;
   height: 50px;
@@ -27,6 +31,7 @@
 
 .friend__contents .friend__name {
   display: block;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -43,8 +48,8 @@
 }
 
 .friend .friend__music {
-  padding: 5px;
-  border: 2px solid green;
+  padding: 5px 10px;
+  border: 2px solid #52d17e;
   border-radius: 5%/50%;
   /* border-top-left-radius: 5% 50%;
   border-bottom-left-radius: 5% 50%;
@@ -52,13 +57,14 @@
   border-bottom-right-radius: 5% 50%; */
 }
 
-.friend__contents .friend__bottom-text {
-  font-size: 15px;
+.friend .friend__music span {
+  opacity: 0.7;
 }
 
-.section-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-  font-size: 13px;
+.friend .friend__music i {
+  font-size: 10px;
+}
+
+.friend__contents .friend__bottom-text {
+  font-size: 15px;
 }
